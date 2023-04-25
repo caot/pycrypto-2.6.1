@@ -576,7 +576,7 @@ init_counter(void)
     if (m == NULL)
         return;
 		
-	my_CounterLEType.ob_type = &PyType_Type;
+    my_CounterLEType.ob_type = &PyType_Type;
     my_CounterBEType.ob_type = &PyType_Type;
 #endif
 }
